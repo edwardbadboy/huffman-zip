@@ -41,12 +41,12 @@ huffman树
 因为存储树很麻烦，所以我是用树组来模拟树的。另外在我的数据结构的书里，huffman树的表示和构造本身就是通过数组模拟的，这个算法也很简单，所以我就用了这个方案。
 
 5、压缩的效果
-huffman算法对单词的权重相差悬殊文件压缩比较有效。可以试一下red.txt（红楼梦），因为红楼梦里什么字都有，并且大多数出现的频率并不悬殊，因此压缩效果一般。另外还有一个systags，这个也可以试，会发现单词的频率相差很悬殊，压缩效果比红楼梦好。如果是每个单词出现频率差不多的文件，甚至会出现压缩后的文件还比原来文件大的情况。这是huffman算法本身的缺陷所决定的。
+huffman算法对单词的权重相差悬殊文件压缩比较有效。可以试一下red.txt（红楼梦），因为红楼梦里什么字都有，并且大多数出现的频率并不悬殊，因此压缩效果一般。另外还有一个tags，这个也可以试，会发现单词的频率相差很悬殊，压缩效果比红楼梦好。如果是每个单词出现频率差不多的文件，甚至会出现压缩后的文件还比原来文件大的情况。这是huffman算法本身的缺陷所决定的。
 
 另外在windows上vs2005编译在调试模式下运行程序，压缩文件会很慢，如果是release模式，就很快。在Linux下用g++用默认参数编译，运行速度一般。
 
 6、每个文件的作用
 huffman_zip_heap.cpp、huffman_zip.cpp、Bitstream.h、Bitstream.imp.h是代码。huffman_zip_heap与huffman_zip的区别是，在构造huffman树时，前者使用了优先队列去寻找最小的两个根节点。
-test_resource下的red.txt、tags、systags是测试用的文件，可以用来测试压缩效果，benchmark是用来测试压缩速度的脚本。
+test_resource下的red.txt、tags是测试用的文件，可以用来测试压缩效果，benchmark.sh是用来测试压缩速度的脚本。
 Bitstream.Manual.pdf是Bitstream的使用手册。
 执行make可以编译程序，执行make test可以测试程序速度。
