@@ -14,7 +14,7 @@ EOF
 
 echo "begin to test huffman_zip_heap "$1" times..."
 time run_cmd $1 "huffman_zip_heap"
-diff red.txt red.txt.unhzip >/dev/null
+diff tags tags.unhzip >/dev/null
 if [ $? -eq 0 ]; then
 	echo "test ok"
 else
@@ -24,7 +24,7 @@ echo ""
 
 echo "begin to test huffman_zip "$1" times..."
 time run_cmd $1 "huffman_zip"
-diff red.txt red.txt.unhzip >/dev/null
+diff tags tags.unhzip >/dev/null
 if [ $? -eq 0 ]; then
 	echo "test ok"
 else
