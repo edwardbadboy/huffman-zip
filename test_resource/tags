@@ -1,0 +1,242 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Bitstream	Bitstream.h	/^namespace Costella{ namespace Bitstream{$/;"	n	namespace:Costella
+Bitstream	Bitstream.imp.h	/^namespace Costella{ namespace Bitstream{$/;"	n	namespace:Costella
+CFLAGS	Makefile	/^CFLAGS = -O2 -Wall -Wextra$/;"	m
+COSTELLA_BITSTREAM_H	Bitstream.h	32;"	d
+CPP	Makefile	/^CPP = g++$/;"	m
+Costella	Bitstream.h	/^namespace Costella{ namespace Bitstream{$/;"	n
+Costella	Bitstream.imp.h	/^namespace Costella{ namespace Bitstream{$/;"	n
+Costella::Bitstream	Bitstream.h	/^namespace Costella{ namespace Bitstream{$/;"	n	namespace:Costella
+Costella::Bitstream	Bitstream.imp.h	/^namespace Costella{ namespace Bitstream{$/;"	n	namespace:Costella
+Costella::Bitstream::In	Bitstream.h	/^class In$/;"	c	namespace:Costella::Bitstream
+Costella::Bitstream::In::In	Bitstream.h	/^    In( std::istream& instream = std::cin );$/;"	p	class:Costella::Bitstream::In	access:public	signature:( std::istream& instream = std::cin )
+Costella::Bitstream::In::In	Bitstream.imp.h	/^In< PositionType >::In( std::istream& instream ) :$/;"	f	class:Costella::Bitstream::In	signature:( std::istream& instream )
+Costella::Bitstream::In::bits	Bitstream.h	/^    void bits( std::vector< unsigned char >& data, NumBitsType numBits );$/;"	p	class:Costella::Bitstream::In	access:public	signature:( std::vector< unsigned char >& data, NumBitsType numBits )
+Costella::Bitstream::In::bits	Bitstream.imp.h	/^void In< PositionType >::bits( std::vector< unsigned char >& data,$/;"	f	class:Costella::Bitstream::In	signature:( std::vector< unsigned char >& data, NumBitsType numBits )
+Costella::Bitstream::In::bitsByte	Bitstream.h	/^    void bitsByte( unsigned char& byte, int num_bits = 8, bool unread =$/;"	p	class:Costella::Bitstream::In	access:private	signature:( unsigned char& byte, int num_bits = 8, bool unread = false, bool flush = false )
+Costella::Bitstream::In::bitsByte	Bitstream.imp.h	/^void In< PositionType >::bitsByte( unsigned char& byte, int numBits, bool$/;"	f	class:Costella::Bitstream::In	signature:( unsigned char& byte, int numBits, bool unread, bool flush )
+Costella::Bitstream::In::boolean	Bitstream.h	/^    void boolean( bool& b );$/;"	p	class:Costella::Bitstream::In	access:public	signature:( bool& b )
+Costella::Bitstream::In::boolean	Bitstream.imp.h	/^void In< PositionType >::boolean( bool& b )$/;"	f	class:Costella::Bitstream::In	signature:( bool& b )
+Costella::Bitstream::In::doneExtra_	Bitstream.h	/^    bool doneExtra_;$/;"	m	class:Costella::Bitstream::In	access:private
+Costella::Bitstream::In::fixed	Bitstream.h	/^    void fixed( ValueType& value, int width );$/;"	p	class:Costella::Bitstream::In	access:public	signature:( ValueType& value, int width )
+Costella::Bitstream::In::fixed	Bitstream.imp.h	/^void In< PositionType >::fixed( ValueType& value, int width )$/;"	f	class:Costella::Bitstream::In	signature:( ValueType& value, int width )
+Costella::Bitstream::In::flush	Bitstream.h	/^    void flush();$/;"	p	class:Costella::Bitstream::In	access:public	signature:()
+Costella::Bitstream::In::flush	Bitstream.imp.h	/^void In< PositionType >::flush()$/;"	f	class:Costella::Bitstream::In	signature:()
+Costella::Bitstream::In::instream_	Bitstream.h	/^    std::istream& instream_;$/;"	m	class:Costella::Bitstream::In	access:private
+Costella::Bitstream::In::lastNumBits_	Bitstream.h	/^    int lastNumBits_;$/;"	m	class:Costella::Bitstream::In	access:private
+Costella::Bitstream::In::lastReadBits_	Bitstream.h	/^    unsigned char lastReadBits_;$/;"	m	class:Costella::Bitstream::In	access:private
+Costella::Bitstream::In::null	Bitstream.h	/^    static In null;$/;"	m	class:Costella::Bitstream::In	access:public
+Costella::Bitstream::In::numBitsWaiting_	Bitstream.h	/^    int numBitsWaiting_;$/;"	m	class:Costella::Bitstream::In	access:private
+Costella::Bitstream::In::position	Bitstream.h	/^    PositionType position() const;$/;"	p	class:Costella::Bitstream::In	access:public	signature:() const
+Costella::Bitstream::In::position	Bitstream.imp.h	/^PositionType In< PositionType >::position() const$/;"	f	class:Costella::Bitstream::In	signature:() const
+Costella::Bitstream::In::position_	Bitstream.h	/^    PositionType position_;$/;"	m	class:Costella::Bitstream::In	access:private
+Costella::Bitstream::In::skip	Bitstream.h	/^    void skip( NumBitsType numBits );$/;"	p	class:Costella::Bitstream::In	access:public	signature:( NumBitsType numBits )
+Costella::Bitstream::In::skip	Bitstream.imp.h	/^void In< PositionType >::skip( NumBitsType numBits )$/;"	f	class:Costella::Bitstream::In	signature:( NumBitsType numBits )
+Costella::Bitstream::In::unread	Bitstream.h	/^    void unread( int numBits );$/;"	p	class:Costella::Bitstream::In	access:public	signature:( int numBits )
+Costella::Bitstream::In::unread	Bitstream.imp.h	/^void In< PositionType >::unread( int numBits )$/;"	f	class:Costella::Bitstream::In	signature:( int numBits )
+Costella::Bitstream::In::variable	Bitstream.h	/^    int variable( ValueType& value, int ldMaxWidth );  $/;"	p	class:Costella::Bitstream::In	access:public	signature:( ValueType& value, int ldMaxWidth )
+Costella::Bitstream::In::variable	Bitstream.imp.h	/^int In< PositionType >::variable( ValueType& value, int ldMaxWidth )  $/;"	f	class:Costella::Bitstream::In	signature:( ValueType& value, int ldMaxWidth )
+Costella::Bitstream::In::waitingBits_	Bitstream.h	/^    unsigned short waitingBits_;$/;"	m	class:Costella::Bitstream::In	access:private
+Costella::Bitstream::Out	Bitstream.h	/^class Out$/;"	c	namespace:Costella::Bitstream
+Costella::Bitstream::Out::Out	Bitstream.h	/^    Out( std::ostream& outstream = std::cout );$/;"	p	class:Costella::Bitstream::Out	access:public	signature:( std::ostream& outstream = std::cout )
+Costella::Bitstream::Out::Out	Bitstream.imp.h	/^Out< PositionType >::Out( std::ostream& outstream ) :$/;"	f	class:Costella::Bitstream::Out	signature:( std::ostream& outstream )
+Costella::Bitstream::Out::bits	Bitstream.h	/^    void bits( const std::vector< unsigned char >& data, NumBitsType numBits$/;"	p	class:Costella::Bitstream::Out	access:public	signature:( const std::vector< unsigned char >& data, NumBitsType numBits )
+Costella::Bitstream::Out::bits	Bitstream.imp.h	/^void Out< PositionType >::bits( const std::vector< unsigned char >& data,$/;"	f	class:Costella::Bitstream::Out	signature:( const std::vector< unsigned char >& data, NumBitsType numBits )
+Costella::Bitstream::Out::bitsByte	Bitstream.h	/^    void bitsByte( unsigned char byte, int num_bits = 8, bool flush = false$/;"	p	class:Costella::Bitstream::Out	access:private	signature:( unsigned char byte, int num_bits = 8, bool flush = false )
+Costella::Bitstream::Out::bitsByte	Bitstream.imp.h	/^void Out< PositionType >::bitsByte( unsigned char byte, int numBits, bool$/;"	f	class:Costella::Bitstream::Out	signature:( unsigned char byte, int numBits, bool flush )
+Costella::Bitstream::Out::boolean	Bitstream.h	/^    void boolean( bool b );$/;"	p	class:Costella::Bitstream::Out	access:public	signature:( bool b )
+Costella::Bitstream::Out::boolean	Bitstream.imp.h	/^void Out< PositionType >::boolean( bool b )$/;"	f	class:Costella::Bitstream::Out	signature:( bool b )
+Costella::Bitstream::Out::fixed	Bitstream.h	/^    void fixed( ValueType value, int width );$/;"	p	class:Costella::Bitstream::Out	access:public	signature:( ValueType value, int width )
+Costella::Bitstream::Out::fixed	Bitstream.imp.h	/^void Out< PositionType >::fixed( ValueType value, int width )$/;"	f	class:Costella::Bitstream::Out	signature:( ValueType value, int width )
+Costella::Bitstream::Out::flush	Bitstream.h	/^    void flush();$/;"	p	class:Costella::Bitstream::Out	access:public	signature:()
+Costella::Bitstream::Out::flush	Bitstream.imp.h	/^void Out< PositionType >::flush()$/;"	f	class:Costella::Bitstream::Out	signature:()
+Costella::Bitstream::Out::null	Bitstream.h	/^    static Out null;$/;"	m	class:Costella::Bitstream::Out	access:public
+Costella::Bitstream::Out::null	Bitstream.imp.h	/^Out< PositionType > Out< PositionType >::null;$/;"	m	class:Costella::Bitstream::Out
+Costella::Bitstream::Out::numBitsWaiting_	Bitstream.h	/^    int numBitsWaiting_;$/;"	m	class:Costella::Bitstream::Out	access:private
+Costella::Bitstream::Out::outstream_	Bitstream.h	/^    std::ostream& outstream_;$/;"	m	class:Costella::Bitstream::Out	access:private
+Costella::Bitstream::Out::position	Bitstream.h	/^    PositionType position() const;$/;"	p	class:Costella::Bitstream::Out	access:public	signature:() const
+Costella::Bitstream::Out::position	Bitstream.imp.h	/^PositionType Out< PositionType >::position() const$/;"	f	class:Costella::Bitstream::Out	signature:() const
+Costella::Bitstream::Out::position_	Bitstream.h	/^    PositionType position_;$/;"	m	class:Costella::Bitstream::Out	access:private
+Costella::Bitstream::Out::variable	Bitstream.h	/^    int variable( ValueType value, int ldMaxWidth );  $/;"	p	class:Costella::Bitstream::Out	access:public	signature:( ValueType value, int ldMaxWidth )
+Costella::Bitstream::Out::variable	Bitstream.imp.h	/^int Out< PositionType >::variable( ValueType value, int ldMaxWidth )  $/;"	f	class:Costella::Bitstream::Out	signature:( ValueType value, int ldMaxWidth )
+Costella::Bitstream::Out::waitingBits_	Bitstream.h	/^    unsigned char waitingBits_;$/;"	m	class:Costella::Bitstream::Out	access:private
+Costella::Bitstream::Out::~Out	Bitstream.h	/^    ~Out();$/;"	p	class:Costella::Bitstream::Out	access:public	signature:()
+Costella::Bitstream::Out::~Out	Bitstream.imp.h	/^Out< PositionType >::~Out()$/;"	f	class:Costella::Bitstream::Out	signature:()
+Costella::Bitstream::leadingBitVector	Bitstream.imp.h	/^std::vector< ValueType > leadingBitVector()$/;"	f	namespace:Costella::Bitstream	signature:()
+Costella::Bitstream::leadingBitVector	Bitstream.imp.h	/^std::vector< ValueType > leadingBitVector();$/;"	p	namespace:Costella::Bitstream	signature:()
+Costella::Bitstream::mask	Bitstream.imp.h	/^ValueType mask( int n )$/;"	f	namespace:Costella::Bitstream	signature:( int n )
+Costella::Bitstream::mask	Bitstream.imp.h	/^ValueType mask( int n );$/;"	p	namespace:Costella::Bitstream	signature:( int n )
+Costella::Bitstream::variableBits	Bitstream.h	/^int variableBits( ValueType value, int ldMaxWidth );$/;"	p	namespace:Costella::Bitstream	signature:( ValueType value, int ldMaxWidth )
+Costella::Bitstream::variableBits	Bitstream.imp.h	/^int variableBits( ValueType value, int ldMaxWidth )$/;"	f	namespace:Costella::Bitstream	signature:( ValueType value, int ldMaxWidth )
+Costella::Bitstream::width	Bitstream.h	/^int width( ValueType value );$/;"	p	namespace:Costella::Bitstream	signature:( ValueType value )
+Costella::Bitstream::width	Bitstream.imp.h	/^int width( ValueType value )$/;"	f	namespace:Costella::Bitstream	signature:( ValueType value )
+EXES	Makefile	/^EXES=huffman_zip huffman_zip_heap$/;"	m
+EXES	test_resource/Makefile	/^EXES=..\/huffman_zip ..\/huffman_zip_heap$/;"	m
+HuffmanCode	huffman_zip.cpp	/^struct HuffmanCode{$/;"	s	file:
+HuffmanCode	huffman_zip_heap.cpp	/^struct HuffmanCode{$/;"	s	file:
+HuffmanCode::byte	huffman_zip.cpp	/^	unsigned char byte;\/\/单词$/;"	m	struct:HuffmanCode	file:	access:public
+HuffmanCode::byte	huffman_zip_heap.cpp	/^	unsigned char byte;\/\/单词$/;"	m	struct:HuffmanCode	file:	access:public
+HuffmanCode::code	huffman_zip.cpp	/^	vector<int> code;\/\/单词对应编码，由一连串的0、1序列组成$/;"	m	struct:HuffmanCode	file:	access:public
+HuffmanCode::code	huffman_zip_heap.cpp	/^	vector<int> code;\/\/单词对应编码，由一连串的0、1序列组成$/;"	m	struct:HuffmanCode	file:	access:public
+HuffmanCodes	huffman_zip.cpp	/^typedef vector<HuffmanCode> HuffmanCodes;\/\/编码表$/;"	t	file:
+HuffmanCodes	huffman_zip_heap.cpp	/^typedef vector<HuffmanCode> HuffmanCodes;\/\/编码表$/;"	t	file:
+HuffmanNode	huffman_zip.cpp	/^struct HuffmanNode{$/;"	s	file:
+HuffmanNode	huffman_zip_heap.cpp	/^struct HuffmanNode{$/;"	s	file:
+HuffmanNode::lchild	huffman_zip.cpp	/^	long lchild;\/\/左孩子下标$/;"	m	struct:HuffmanNode	file:	access:public
+HuffmanNode::lchild	huffman_zip_heap.cpp	/^	long lchild;\/\/左孩子下标$/;"	m	struct:HuffmanNode	file:	access:public
+HuffmanNode::parent	huffman_zip.cpp	/^	long parent;\/\/双亲下标$/;"	m	struct:HuffmanNode	file:	access:public
+HuffmanNode::parent	huffman_zip_heap.cpp	/^	long parent;\/\/双亲下标$/;"	m	struct:HuffmanNode	file:	access:public
+HuffmanNode::rchild	huffman_zip.cpp	/^	long rchild;\/\/右孩子下标$/;"	m	struct:HuffmanNode	file:	access:public
+HuffmanNode::rchild	huffman_zip_heap.cpp	/^	long rchild;\/\/右孩子下标$/;"	m	struct:HuffmanNode	file:	access:public
+HuffmanNode::weight	huffman_zip.cpp	/^	long weight;\/\/权重$/;"	m	struct:HuffmanNode	file:	access:public
+HuffmanNode::weight	huffman_zip_heap.cpp	/^	long weight;\/\/权重$/;"	m	struct:HuffmanNode	file:	access:public
+HuffmanNodeComparer	huffman_zip_heap.cpp	/^struct HuffmanNodeComparer \/\/: public std::binary_function<HuffmanNode*, HuffmanNode*, bool>$/;"	s	file:
+HuffmanNodeComparer::operator ()	huffman_zip_heap.cpp	/^	bool operator()(const HuffmanNode *l, const HuffmanNode *r) const{$/;"	f	struct:HuffmanNodeComparer	access:public	signature:(const HuffmanNode *l, const HuffmanNode *r) const
+HuffmanQueue	huffman_zip_heap.cpp	/^typedef priority_queue<HuffmanNode*, vector<HuffmanNode*>, HuffmanNodeComparer> HuffmanQueue;\/\/用于提取最小根元素的优先队列$/;"	t	file:
+HuffmanToken	huffman_zip.cpp	/^struct HuffmanToken{$/;"	s	file:
+HuffmanToken	huffman_zip_heap.cpp	/^struct HuffmanToken{$/;"	s	file:
+HuffmanToken::byte	huffman_zip.cpp	/^	unsigned char byte;\/\/单词内容$/;"	m	struct:HuffmanToken	file:	access:public
+HuffmanToken::byte	huffman_zip_heap.cpp	/^	unsigned char byte;\/\/单词内容$/;"	m	struct:HuffmanToken	file:	access:public
+HuffmanToken::weight	huffman_zip.cpp	/^	long weight;\/\/权重$/;"	m	struct:HuffmanToken	file:	access:public
+HuffmanToken::weight	huffman_zip_heap.cpp	/^	long weight;\/\/权重$/;"	m	struct:HuffmanToken	file:	access:public
+HuffmanTree	huffman_zip.cpp	/^typedef vector<HuffmanNode> HuffmanTree;\/\/huffman树$/;"	t	file:
+HuffmanTree	huffman_zip_heap.cpp	/^typedef vector<HuffmanNode> HuffmanTree;\/\/huffman树$/;"	t	file:
+In	Bitstream.h	/^    In( std::istream& instream = std::cin );$/;"	p	class:Costella::Bitstream::In	access:public	signature:( std::istream& instream = std::cin )
+In	Bitstream.h	/^class In$/;"	c	namespace:Costella::Bitstream
+In	Bitstream.imp.h	/^In< PositionType >::In( std::istream& instream ) :$/;"	f	class:Costella::Bitstream::In	signature:( std::istream& instream )
+MAGIC_VERSION	huffman_zip.cpp	12;"	d	file:
+MAGIC_VERSION	huffman_zip_heap.cpp	13;"	d	file:
+MAKE	Makefile	/^MAKE=make$/;"	m
+OBJS	Makefile	/^OBJS=$(EXES:%=%.o)$/;"	m
+Out	Bitstream.h	/^    Out( std::ostream& outstream = std::cout );$/;"	p	class:Costella::Bitstream::Out	access:public	signature:( std::ostream& outstream = std::cout )
+Out	Bitstream.h	/^class Out$/;"	c	namespace:Costella::Bitstream
+Out	Bitstream.imp.h	/^Out< PositionType >::Out( std::ostream& outstream ) :$/;"	f	class:Costella::Bitstream::Out	signature:( std::ostream& outstream )
+TokenList	huffman_zip.cpp	/^typedef vector<HuffmanToken> TokenList;\/\/词汇表$/;"	t	file:
+TokenList	huffman_zip_heap.cpp	/^typedef vector<HuffmanToken> TokenList;\/\/词汇表$/;"	t	file:
+bits	Bitstream.h	/^    void bits( const std::vector< unsigned char >& data, NumBitsType numBits$/;"	p	class:Costella::Bitstream::Out	access:public	signature:( const std::vector< unsigned char >& data, NumBitsType numBits )
+bits	Bitstream.h	/^    void bits( std::vector< unsigned char >& data, NumBitsType numBits );$/;"	p	class:Costella::Bitstream::In	access:public	signature:( std::vector< unsigned char >& data, NumBitsType numBits )
+bits	Bitstream.imp.h	/^void In< PositionType >::bits( std::vector< unsigned char >& data,$/;"	f	class:Costella::Bitstream::In	signature:( std::vector< unsigned char >& data, NumBitsType numBits )
+bits	Bitstream.imp.h	/^void Out< PositionType >::bits( const std::vector< unsigned char >& data,$/;"	f	class:Costella::Bitstream::Out	signature:( const std::vector< unsigned char >& data, NumBitsType numBits )
+bitsByte	Bitstream.h	/^    void bitsByte( unsigned char byte, int num_bits = 8, bool flush = false$/;"	p	class:Costella::Bitstream::Out	access:private	signature:( unsigned char byte, int num_bits = 8, bool flush = false )
+bitsByte	Bitstream.h	/^    void bitsByte( unsigned char& byte, int num_bits = 8, bool unread =$/;"	p	class:Costella::Bitstream::In	access:private	signature:( unsigned char& byte, int num_bits = 8, bool unread = false, bool flush = false )
+bitsByte	Bitstream.imp.h	/^void In< PositionType >::bitsByte( unsigned char& byte, int numBits, bool$/;"	f	class:Costella::Bitstream::In	signature:( unsigned char& byte, int numBits, bool unread, bool flush )
+bitsByte	Bitstream.imp.h	/^void Out< PositionType >::bitsByte( unsigned char byte, int numBits, bool$/;"	f	class:Costella::Bitstream::Out	signature:( unsigned char byte, int numBits, bool flush )
+boolean	Bitstream.h	/^    void boolean( bool b );$/;"	p	class:Costella::Bitstream::Out	access:public	signature:( bool b )
+boolean	Bitstream.h	/^    void boolean( bool& b );$/;"	p	class:Costella::Bitstream::In	access:public	signature:( bool& b )
+boolean	Bitstream.imp.h	/^void In< PositionType >::boolean( bool& b )$/;"	f	class:Costella::Bitstream::In	signature:( bool& b )
+boolean	Bitstream.imp.h	/^void Out< PositionType >::boolean( bool b )$/;"	f	class:Costella::Bitstream::Out	signature:( bool b )
+byte	huffman_zip.cpp	/^	unsigned char byte;\/\/单词$/;"	m	struct:HuffmanCode	file:	access:public
+byte	huffman_zip.cpp	/^	unsigned char byte;\/\/单词内容$/;"	m	struct:HuffmanToken	file:	access:public
+byte	huffman_zip_heap.cpp	/^	unsigned char byte;\/\/单词$/;"	m	struct:HuffmanCode	file:	access:public
+byte	huffman_zip_heap.cpp	/^	unsigned char byte;\/\/单词内容$/;"	m	struct:HuffmanToken	file:	access:public
+code	huffman_zip.cpp	/^	vector<int> code;\/\/单词对应编码，由一连串的0、1序列组成$/;"	m	struct:HuffmanCode	file:	access:public
+code	huffman_zip_heap.cpp	/^	vector<int> code;\/\/单词对应编码，由一连串的0、1序列组成$/;"	m	struct:HuffmanCode	file:	access:public
+collect_word_list	huffman_zip.cpp	/^TokenList collect_word_list(istream &in){$/;"	f	signature:(istream &in)
+collect_word_list	huffman_zip_heap.cpp	/^TokenList collect_word_list(istream &in){$/;"	f	signature:(istream &in)
+create_huffman_code	huffman_zip.cpp	/^void create_huffman_code(const HuffmanTree &ht,long ht_index,unsigned char byte,HuffmanCode &hc){$/;"	f	signature:(const HuffmanTree &ht,long ht_index,unsigned char byte,HuffmanCode &hc)
+create_huffman_code	huffman_zip_heap.cpp	/^void create_huffman_code(const HuffmanTree &ht,long ht_index,unsigned char byte,HuffmanCode &hc){$/;"	f	signature:(const HuffmanTree &ht,long ht_index,unsigned char byte,HuffmanCode &hc)
+create_huffman_codes	huffman_zip.cpp	/^void create_huffman_codes(const HuffmanTree &ht, const TokenList &tokens, HuffmanCodes &hcs){$/;"	f	signature:(const HuffmanTree &ht, const TokenList &tokens, HuffmanCodes &hcs)
+create_huffman_codes	huffman_zip_heap.cpp	/^void create_huffman_codes(const HuffmanTree &ht, const TokenList &tokens, HuffmanCodes &hcs){$/;"	f	signature:(const HuffmanTree &ht, const TokenList &tokens, HuffmanCodes &hcs)
+create_huffman_tree	huffman_zip.cpp	/^void create_huffman_tree(HuffmanTree &ht,const TokenList &tokens){$/;"	f	signature:(HuffmanTree &ht,const TokenList &tokens)
+create_huffman_tree	huffman_zip_heap.cpp	/^void create_huffman_tree(HuffmanTree &ht, const TokenList &tokens){$/;"	f	signature:(HuffmanTree &ht, const TokenList &tokens)
+doneExtra_	Bitstream.h	/^    bool doneExtra_;$/;"	m	class:Costella::Bitstream::In	access:private
+find_min_weight_positions	huffman_zip.cpp	/^void find_min_weight_positions(const HuffmanTree &ht,long end,long &min_pos1,long &min_pos2){$/;"	f	signature:(const HuffmanTree &ht,long end,long &min_pos1,long &min_pos2)
+find_min_weight_positions	huffman_zip_heap.cpp	/^void find_min_weight_positions(const HuffmanTree &ht, HuffmanQueue &q,long &min_pos1,long &min_pos2){$/;"	f	signature:(const HuffmanTree &ht, HuffmanQueue &q,long &min_pos1,long &min_pos2)
+fixed	Bitstream.h	/^    void fixed( ValueType value, int width );$/;"	p	class:Costella::Bitstream::Out	access:public	signature:( ValueType value, int width )
+fixed	Bitstream.h	/^    void fixed( ValueType& value, int width );$/;"	p	class:Costella::Bitstream::In	access:public	signature:( ValueType& value, int width )
+fixed	Bitstream.imp.h	/^void In< PositionType >::fixed( ValueType& value, int width )$/;"	f	class:Costella::Bitstream::In	signature:( ValueType& value, int width )
+fixed	Bitstream.imp.h	/^void Out< PositionType >::fixed( ValueType value, int width )$/;"	f	class:Costella::Bitstream::Out	signature:( ValueType value, int width )
+flush	Bitstream.h	/^    void flush();$/;"	p	class:Costella::Bitstream::In	access:public	signature:()
+flush	Bitstream.h	/^    void flush();$/;"	p	class:Costella::Bitstream::Out	access:public	signature:()
+flush	Bitstream.imp.h	/^void In< PositionType >::flush()$/;"	f	class:Costella::Bitstream::In	signature:()
+flush	Bitstream.imp.h	/^void Out< PositionType >::flush()$/;"	f	class:Costella::Bitstream::Out	signature:()
+huffman_data_decode	huffman_zip.cpp	/^bool huffman_data_decode(istream &in,ostream &out,const HuffmanTree &ht,const TokenList &tokens)$/;"	f	signature:(istream &in,ostream &out,const HuffmanTree &ht,const TokenList &tokens)
+huffman_data_decode	huffman_zip_heap.cpp	/^bool huffman_data_decode(istream &in,ostream &out,const HuffmanTree &ht,const TokenList &tokens)$/;"	f	signature:(istream &in,ostream &out,const HuffmanTree &ht,const TokenList &tokens)
+huffman_data_encode	huffman_zip.cpp	/^bool huffman_data_encode(istream &in,ostream &out,const HuffmanCodes &hcs)$/;"	f	signature:(istream &in,ostream &out,const HuffmanCodes &hcs)
+huffman_data_encode	huffman_zip_heap.cpp	/^bool huffman_data_encode(istream &in,ostream &out,const HuffmanCodes &hcs)$/;"	f	signature:(istream &in,ostream &out,const HuffmanCodes &hcs)
+huffman_unzip	huffman_zip.cpp	/^bool huffman_unzip(const char *in_filename,const char *out_filename)$/;"	f	signature:(const char *in_filename,const char *out_filename)
+huffman_unzip	huffman_zip_heap.cpp	/^bool huffman_unzip(const char *in_filename,const char *out_filename)$/;"	f	signature:(const char *in_filename,const char *out_filename)
+huffman_zip	huffman_zip.cpp	/^bool huffman_zip(const char *in_filename,const char *out_filename)$/;"	f	signature:(const char *in_filename,const char *out_filename)
+huffman_zip	huffman_zip_heap.cpp	/^bool huffman_zip(const char *in_filename,const char *out_filename)$/;"	f	signature:(const char *in_filename,const char *out_filename)
+init_huffman_queue	huffman_zip_heap.cpp	/^void init_huffman_queue(HuffmanQueue &q, const HuffmanTree &ht, HuffmanTree::size_type size){$/;"	f	signature:(HuffmanQueue &q, const HuffmanTree &ht, HuffmanTree::size_type size)
+init_huffman_tree	huffman_zip.cpp	/^void init_huffman_tree(HuffmanTree &ht,const TokenList &tokens){$/;"	f	signature:(HuffmanTree &ht,const TokenList &tokens)
+init_huffman_tree	huffman_zip_heap.cpp	/^void init_huffman_tree(HuffmanTree &ht,const TokenList &tokens){$/;"	f	signature:(HuffmanTree &ht,const TokenList &tokens)
+instream_	Bitstream.h	/^    std::istream& instream_;$/;"	m	class:Costella::Bitstream::In	access:private
+is_empty_token	huffman_zip.cpp	/^bool is_empty_token(const HuffmanToken &tk){$/;"	f	signature:(const HuffmanToken &tk)
+is_empty_token	huffman_zip_heap.cpp	/^bool is_empty_token(const HuffmanToken &tk){$/;"	f	signature:(const HuffmanToken &tk)
+lastNumBits_	Bitstream.h	/^    int lastNumBits_;$/;"	m	class:Costella::Bitstream::In	access:private
+lastReadBits_	Bitstream.h	/^    unsigned char lastReadBits_;$/;"	m	class:Costella::Bitstream::In	access:private
+lchild	huffman_zip.cpp	/^	long lchild;\/\/左孩子下标$/;"	m	struct:HuffmanNode	file:	access:public
+lchild	huffman_zip_heap.cpp	/^	long lchild;\/\/左孩子下标$/;"	m	struct:HuffmanNode	file:	access:public
+leadingBitVector	Bitstream.imp.h	/^std::vector< ValueType > leadingBitVector()$/;"	f	namespace:Costella::Bitstream	signature:()
+leadingBitVector	Bitstream.imp.h	/^std::vector< ValueType > leadingBitVector();$/;"	p	namespace:Costella::Bitstream	signature:()
+main	huffman_zip.cpp	/^int main(int argc, char* argv[])$/;"	f	signature:(int argc, char* argv[])
+main	huffman_zip_heap.cpp	/^int main(int argc, char* argv[])$/;"	f	signature:(int argc, char* argv[])
+mask	Bitstream.imp.h	/^ValueType mask( int n )$/;"	f	namespace:Costella::Bitstream	signature:( int n )
+mask	Bitstream.imp.h	/^ValueType mask( int n );$/;"	p	namespace:Costella::Bitstream	signature:( int n )
+null	Bitstream.h	/^    static In null;$/;"	m	class:Costella::Bitstream::In	access:public
+null	Bitstream.h	/^    static Out null;$/;"	m	class:Costella::Bitstream::Out	access:public
+null	Bitstream.imp.h	/^Out< PositionType > Out< PositionType >::null;$/;"	m	class:Costella::Bitstream::Out
+numBitsWaiting_	Bitstream.h	/^    int numBitsWaiting_;$/;"	m	class:Costella::Bitstream::In	access:private
+numBitsWaiting_	Bitstream.h	/^    int numBitsWaiting_;$/;"	m	class:Costella::Bitstream::Out	access:private
+operator ()	huffman_zip_heap.cpp	/^	bool operator()(const HuffmanNode *l, const HuffmanNode *r) const{$/;"	f	struct:HuffmanNodeComparer	access:public	signature:(const HuffmanNode *l, const HuffmanNode *r) const
+outstream_	Bitstream.h	/^    std::ostream& outstream_;$/;"	m	class:Costella::Bitstream::Out	access:private
+parent	huffman_zip.cpp	/^	long parent;\/\/双亲下标$/;"	m	struct:HuffmanNode	file:	access:public
+parent	huffman_zip_heap.cpp	/^	long parent;\/\/双亲下标$/;"	m	struct:HuffmanNode	file:	access:public
+position	Bitstream.h	/^    PositionType position() const;$/;"	p	class:Costella::Bitstream::In	access:public	signature:() const
+position	Bitstream.h	/^    PositionType position() const;$/;"	p	class:Costella::Bitstream::Out	access:public	signature:() const
+position	Bitstream.imp.h	/^PositionType In< PositionType >::position() const$/;"	f	class:Costella::Bitstream::In	signature:() const
+position	Bitstream.imp.h	/^PositionType Out< PositionType >::position() const$/;"	f	class:Costella::Bitstream::Out	signature:() const
+position_	Bitstream.h	/^    PositionType position_;$/;"	m	class:Costella::Bitstream::In	access:private
+position_	Bitstream.h	/^    PositionType position_;$/;"	m	class:Costella::Bitstream::Out	access:private
+print_huffman_code	huffman_zip.cpp	/^void print_huffman_code(const HuffmanCode &hc,const TokenList &tk,long &tk_i){$/;"	f	signature:(const HuffmanCode &hc,const TokenList &tk,long &tk_i)
+print_huffman_code	huffman_zip_heap.cpp	/^void print_huffman_code(const HuffmanCode &hc,const TokenList &tk,long &tk_i){$/;"	f	signature:(const HuffmanCode &hc,const TokenList &tk,long &tk_i)
+print_huffman_codes	huffman_zip.cpp	/^void print_huffman_codes(const HuffmanCodes &hcs,const TokenList &tk){$/;"	f	signature:(const HuffmanCodes &hcs,const TokenList &tk)
+print_huffman_codes	huffman_zip_heap.cpp	/^void print_huffman_codes(const HuffmanCodes &hcs,const TokenList &tk){$/;"	f	signature:(const HuffmanCodes &hcs,const TokenList &tk)
+print_tokens	huffman_zip_heap.cpp	/^void print_tokens(const TokenList &tokens){$/;"	f	signature:(const TokenList &tokens)
+rchild	huffman_zip.cpp	/^	long rchild;\/\/右孩子下标$/;"	m	struct:HuffmanNode	file:	access:public
+rchild	huffman_zip_heap.cpp	/^	long rchild;\/\/右孩子下标$/;"	m	struct:HuffmanNode	file:	access:public
+read_huffman_node	huffman_zip.cpp	/^bool read_huffman_node(istream &in,HuffmanNode &node){$/;"	f	signature:(istream &in,HuffmanNode &node)
+read_huffman_node	huffman_zip_heap.cpp	/^bool read_huffman_node(istream &in,HuffmanNode &node){$/;"	f	signature:(istream &in,HuffmanNode &node)
+read_huffman_token	huffman_zip.cpp	/^bool read_huffman_token(istream &in,HuffmanToken &tk){$/;"	f	signature:(istream &in,HuffmanToken &tk)
+read_huffman_token	huffman_zip_heap.cpp	/^bool read_huffman_token(istream &in,HuffmanToken &tk){$/;"	f	signature:(istream &in,HuffmanToken &tk)
+read_huffman_tree	huffman_zip.cpp	/^bool read_huffman_tree(istream &in,HuffmanTree &ht,TokenList &tokens)$/;"	f	signature:(istream &in,HuffmanTree &ht,TokenList &tokens)
+read_huffman_tree	huffman_zip_heap.cpp	/^bool read_huffman_tree(istream &in,HuffmanTree &ht,TokenList &tokens)$/;"	f	signature:(istream &in,HuffmanTree &ht,TokenList &tokens)
+read_huffman_zip_header	huffman_zip.cpp	/^string read_huffman_zip_header(istream &in){$/;"	f	signature:(istream &in)
+read_huffman_zip_header	huffman_zip_heap.cpp	/^string read_huffman_zip_header(istream &in){$/;"	f	signature:(istream &in)
+run_cmd	test_resource/benchmark.sh	/^run_cmd(){$/;"	f
+skip	Bitstream.h	/^    void skip( NumBitsType numBits );$/;"	p	class:Costella::Bitstream::In	access:public	signature:( NumBitsType numBits )
+skip	Bitstream.imp.h	/^void In< PositionType >::skip( NumBitsType numBits )$/;"	f	class:Costella::Bitstream::In	signature:( NumBitsType numBits )
+unread	Bitstream.h	/^    void unread( int numBits );$/;"	p	class:Costella::Bitstream::In	access:public	signature:( int numBits )
+unread	Bitstream.imp.h	/^void In< PositionType >::unread( int numBits )$/;"	f	class:Costella::Bitstream::In	signature:( int numBits )
+variable	Bitstream.h	/^    int variable( ValueType value, int ldMaxWidth );  $/;"	p	class:Costella::Bitstream::Out	access:public	signature:( ValueType value, int ldMaxWidth )
+variable	Bitstream.h	/^    int variable( ValueType& value, int ldMaxWidth );  $/;"	p	class:Costella::Bitstream::In	access:public	signature:( ValueType& value, int ldMaxWidth )
+variable	Bitstream.imp.h	/^int In< PositionType >::variable( ValueType& value, int ldMaxWidth )  $/;"	f	class:Costella::Bitstream::In	signature:( ValueType& value, int ldMaxWidth )
+variable	Bitstream.imp.h	/^int Out< PositionType >::variable( ValueType value, int ldMaxWidth )  $/;"	f	class:Costella::Bitstream::Out	signature:( ValueType value, int ldMaxWidth )
+variableBits	Bitstream.h	/^int variableBits( ValueType value, int ldMaxWidth );$/;"	p	namespace:Costella::Bitstream	signature:( ValueType value, int ldMaxWidth )
+variableBits	Bitstream.imp.h	/^int variableBits( ValueType value, int ldMaxWidth )$/;"	f	namespace:Costella::Bitstream	signature:( ValueType value, int ldMaxWidth )
+waitingBits_	Bitstream.h	/^    unsigned char waitingBits_;$/;"	m	class:Costella::Bitstream::Out	access:private
+waitingBits_	Bitstream.h	/^    unsigned short waitingBits_;$/;"	m	class:Costella::Bitstream::In	access:private
+weight	huffman_zip.cpp	/^	long weight;\/\/权重$/;"	m	struct:HuffmanNode	file:	access:public
+weight	huffman_zip.cpp	/^	long weight;\/\/权重$/;"	m	struct:HuffmanToken	file:	access:public
+weight	huffman_zip_heap.cpp	/^	long weight;\/\/权重$/;"	m	struct:HuffmanNode	file:	access:public
+weight	huffman_zip_heap.cpp	/^	long weight;\/\/权重$/;"	m	struct:HuffmanToken	file:	access:public
+width	Bitstream.h	/^int width( ValueType value );$/;"	p	namespace:Costella::Bitstream	signature:( ValueType value )
+width	Bitstream.imp.h	/^int width( ValueType value )$/;"	f	namespace:Costella::Bitstream	signature:( ValueType value )
+write_huffman_code	huffman_zip.cpp	/^void write_huffman_code(Bitstream::Out<long> &bout, const vector<int> &code){$/;"	f	signature:(Bitstream::Out<long> &bout, const vector<int> &code)
+write_huffman_code	huffman_zip_heap.cpp	/^void write_huffman_code(Bitstream::Out<long> &bout, const vector<int> &code){$/;"	f	signature:(Bitstream::Out<long> &bout, const vector<int> &code)
+write_huffman_node	huffman_zip.cpp	/^bool write_huffman_node(ostream &out,const HuffmanNode &node){$/;"	f	signature:(ostream &out,const HuffmanNode &node)
+write_huffman_node	huffman_zip_heap.cpp	/^bool write_huffman_node(ostream &out,const HuffmanNode &node){$/;"	f	signature:(ostream &out,const HuffmanNode &node)
+write_huffman_token	huffman_zip.cpp	/^bool write_huffman_token(ostream &out,const HuffmanToken &tk){$/;"	f	signature:(ostream &out,const HuffmanToken &tk)
+write_huffman_token	huffman_zip_heap.cpp	/^bool write_huffman_token(ostream &out,const HuffmanToken &tk){$/;"	f	signature:(ostream &out,const HuffmanToken &tk)
+write_huffman_tree	huffman_zip.cpp	/^bool write_huffman_tree(ostream &out,const HuffmanTree &ht,const TokenList &tokens)$/;"	f	signature:(ostream &out,const HuffmanTree &ht,const TokenList &tokens)
+write_huffman_tree	huffman_zip_heap.cpp	/^bool write_huffman_tree(ostream &out,const HuffmanTree &ht,const TokenList &tokens)$/;"	f	signature:(ostream &out,const HuffmanTree &ht,const TokenList &tokens)
+write_huffman_zip_header	huffman_zip.cpp	/^bool write_huffman_zip_header(ostream &out){$/;"	f	signature:(ostream &out)
+write_huffman_zip_header	huffman_zip_heap.cpp	/^bool write_huffman_zip_header(ostream &out){$/;"	f	signature:(ostream &out)
+~Out	Bitstream.h	/^    ~Out();$/;"	p	class:Costella::Bitstream::Out	access:public	signature:()
+~Out	Bitstream.imp.h	/^Out< PositionType >::~Out()$/;"	f	class:Costella::Bitstream::Out	signature:()

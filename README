@@ -1,0 +1,10 @@
+zip and unzip a file using huffman coding algorithm.
+
+dependencies:
+	g++
+	STL
+	bash
+
+compiling:
+	make
+	make test
