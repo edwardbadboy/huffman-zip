@@ -3,8 +3,10 @@ zip and unzip a file using huffman coding algorithm.
 dependencies:
 	g++
 	STL
-	bash
 
 compiling:
 	make
 	make test
+
+document
+	http://hi.baidu.com/%B2%BB%D5%FD%D6%B1%B5%C4%C8%CB/blog/item/24974c1b6166df018618bfb2.html
